@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_welcome"
+    android:orientation="vertical"
+    android:padding="28dp">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="Logo perpustakaan"
+        android:src="@drawable/ic_logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="WELCOME"
+        android:textColor="@android:color/white"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <!-- Wadah button: mengisi sisa layar, isinya menempel di bawah -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:paddingBottom="24dp">
+
+        <Button
+            android:id="@+id/btnBuku"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="BUKU"
+            android:textColor="@android:color/white"
+            app:backgroundTint="#00695C"
+            app:cornerRadius="24dp" />
+
+        <Button
+            android:id="@+id/btnPeminjaman"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="16dp"
+            android:text="PEMINJAMAN"
+            android:textColor="#00695C"
+            app:backgroundTint="@android:color/white"
+            app:cornerRadius="26dp"
+            app:strokeColor="#00695C" />
+
+    </LinearLayout>
+</LinearLayout>

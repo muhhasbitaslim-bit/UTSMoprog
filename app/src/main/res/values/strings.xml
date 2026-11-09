@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">UTS-Moprog</string>
+
+    <string-array name="kategori_buku">
+        <item>Teknologi</item>
+        <item>Sains</item>
+        <item>Sastra</item>
+        <item>Sejarah</item>
+    </string-array>
+
+</resources>
