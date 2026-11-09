@@ -11,17 +11,17 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val btnBuku = findViewById<Button>(R.id.btnBuku)
-        val btnPeminjaman = findViewById<Button>(R.id.btnPeminjaman)
+        val btnLogin = findViewById<Button>(R.id.btnLogin)
+        val btnList = findViewById<Button>(R.id.btnList)
 
-        // Explicit Intent ke halaman daftar buku
-        btnBuku.setOnClickListener {
-            startActivity(Intent(this, BukuActivity::class.java))
+        // Explicit Intent ke halaman login
+        btnLogin.setOnClickListener {
+            startActivity(Intent(this, LoginActivity::class.java))
         }
 
-        // Explicit Intent ke form peminjaman
-        btnPeminjaman.setOnClickListener {
-            startActivity(Intent(this, PeminjamanActivity::class.java))
+        // Explicit Intent ke halaman daftar buku (recycler view)
+        btnList.setOnClickListener {
+            startActivity(Intent(this, BukuActivity::class.java))
         }
     }
 }

@@ -34,21 +34,21 @@
         android:paddingBottom="24dp">
 
         <Button
-            android:id="@+id/btnBuku"
+            android:id="@+id/btnLogin"
             android:layout_width="match_parent"
             android:layout_height="64dp"
-            android:text="BUKU"
+            android:text="LOGIN"
             android:textColor="@android:color/white"
             app:backgroundTint="#00695C"
             app:cornerRadius="24dp" />
 
         <Button
-            android:id="@+id/btnPeminjaman"
+            android:id="@+id/btnList"
             style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="match_parent"
             android:layout_height="52dp"
             android:layout_marginTop="16dp"
-            android:text="PEMINJAMAN"
+            android:text="LIST VIEW"
             android:textColor="#00695C"
             app:backgroundTint="@android:color/white"
             app:cornerRadius="26dp"
